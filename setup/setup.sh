@@ -46,3 +46,13 @@ ln -sb dotfiles/.bashrc .
 ln -sb dotfiles/.bashrc_custom .
 ln -sf dotfiles/.emacs.d .
 
+#installing nodejs (ADDED BY ROHITH) 
+sudo apt-get update 
+sudo apt-get install -y python-software-properties python g++ make 
+sudo add-apt-repository ppa:chris-lea/node.js
+sudo apt-get update
+sudo apt-get install -y nodejs
+npm install express
+npm install restler
+npm install commander
+npm install cheerio
